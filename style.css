@@ -90,6 +90,10 @@ nav {
    background-color: var(--white); 
 }
 
+.navbar-desktop {
+  box-shadow: 0 5px 5px -5px rgba(0,0,0,.28)
+}
+
 .navbar-desktop a {
   color: var(--gray);
   text-transform: uppercase;
