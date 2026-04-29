@@ -1,5 +1,4 @@
 :root {
-  /* Brand colors */
   --red: rgb(220, 53, 69);
   --dark: #111;
   --gray: #6d6d6d;
@@ -8,8 +7,6 @@
   --news-bg-color: #f3f2f2;
   --white: #ffffff;
   --black: #0e0e0e;
-  --blue: blue;
-  --bg-day-header: #f4f4f4;
   --bg-footer-body: #fafafa;
   --bg-legal-section: #f4f4f4;
   --border-news: #f4f4f4;
@@ -47,12 +44,12 @@ a {
 }
 
 .topics {
-    list-style: none;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    border-bottom: 1px solid var(--border);
+  list-style: none;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--border);
 }
 
 .topics-mobile {
@@ -72,18 +69,18 @@ a {
 }
 
 .topics li {
-    display: inline-block;
-    padding: 0 8px;
-    line-height: 40px;
+  display: inline-block;
+  padding: 0 8px;
+  line-height: 40px;
 }
 
 .topics li a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 10px;
-    color: var(--black);
-    text-decoration: none;
-    white-space: nowrap;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  color: var(--black);
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 nav {
@@ -126,16 +123,6 @@ nav {
   color: var(--dark);
   text-transform: uppercase;
   font-weight: bold;
-}
-
-#dayheader {
-    font-size: 10px;
-    background-color: var(--bg-day-header);
-    height: 34px;
-}
-
-#dayheader a {
-    color: var(--blue);
 }
 
 .main-section-big article {
@@ -285,14 +272,6 @@ h4 {
   vertical-align: middle;
   color: var(--text-muted); 
 }
-
-.list-2col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
-}
-
-.list-2col li { margin-bottom: 10px; }
 
 .mega {
   padding: 32px 0 24px;
